@@ -1,24 +1,27 @@
 ### Chia FAQ DUTCH TEST
 
-+ <b>Q: What is Chia?</b>
++ <b>Q: Wat is Chia?</b>
 
 A: Chia Network uses vacant disk space on hard drives to farm seeds. Chia farming uses proof of space (PoSpace), co-ordinated with another consensus algorithm, proof of time (PoT). The goal is to to prevent wasting massive amounts of energy securing the network and prevent ASIC-powered centralisation. A hard disk will have its empty space filled with randomly generated proofs.
 
+A: Het Chia Netwerk maakt gebruik van de vrije ruimte op harde schijven. Chia farming maakt gebruik van proof of space (PoSpace), gecombineerd met een ander consensus algortime, proof of time (PoT). Het doel is om de verspilling van gigantische hoeveelheden aan energie tegen te gaan en het voorkomen van ASIC-powered centralisatie. De lege ruimte op een harde schijf zal opgevuld worden met random gegenereerd bewijs.
 
 
-+ <b>Q: What does farming mean?</b>
++ <b>Q: What betekent farming?</b>
+
+A: Chia farming is een beetje zoals minen in de manier waarop blocks worden gemaakt.
 
 A: Chia farming is a bit like mining in that it's how blocks are made. Farming works by carrying out a snapshot (seeding) of the storage available on your hard drive(s). Based on the storage as a percentage you will receive lottery type payouts for the amount you are willing to farm to Chia. The more tickets you buy the more likely you are to win. There will be no incentive to buy hard drives to farm Chia, as Chia works because of the amount of idle space sitting around at the moment not costing owners anything. What it does is make use of this idle space. As there is so much storage existing in the world the chance of winning a reward is extremely low for the average user, but considering it uses insignificant energy, bandwidth and the space is idle anyway, it's not a big deal if your reward is small and infrequent. Pools, miners, ASICs and burning wasted energy are not Chia.
 
 
 
-+ <b>Q: Main difference between Chia and Bitcoin?</b>
++ <b>Q: Wat is het verschil tussen Chia & Bitcoin</b>
 
 A: Chia is farmed with hard drives instead of mining with processing power, allowing easier access to users, and vastly reducing the cost/waste of securing the network (electricity burned). Chia is resistant to farmer centralization. Chia has a bunch of basic improvements: Everything is BLS signatures for better smart transaction support, and a bunch of bug fixes like timewarp. The goal is to make hard forks effectively impossible, so governance will come from user choice and bitcoin-like decentralized incentives.
 
 
 
-+ <b>Q: What is "proof of space?"</b>
++ <b>Q: Wat is "proof of space?"</b>
 
 A: "Proof of space" is not actually storage. Storage is of something directly useful and requires lots of bandwidth. Proofs of space are of data which is useless for anything but generating proofs of space and making it requires essentially no bandwidth. Proof of actual storage requires ridiculous amounts of bandwidth so it will not be used in Chia.
 
@@ -30,13 +33,13 @@ A: Seeding is a process that requires reading and writing every sector more than
 
 
 
-+ <b>Q: When will Chia launch?</b>
++ <b>Q: Wanneer wordt Chia gelanceerd?</b>
 
 A: Chia plans to sale in Q2 and launch by end of 2018, but this is not set in stone and is dependent on development.
 
 
 
-+ <b>Q: How will I be able to buy Chia?</b>
++ <b>Q: Hoe kan ik Chia kopen?</b>
 
 A: We're planning on doing some kind of sale to the public, working over that with lawyers at the moment. We need to do some amount of fund-raising because there's quite a bit of work still to be done. We're just getting the thing up and running and it would be nice to fund ongoing development and enhancements in the future (many of which will be shared with Bitcoin). There will be a pre-farm of currency whose allocation will be split between being earmarked to fund future development and going to the team. The funding mechanism will be transparent and available publicly before sales commence.
 
@@ -44,29 +47,37 @@ A: We're planning on doing some kind of sale to the public, working over that wi
 
 + <b>Q: Where is Chia development now?</b>
 
+A: Op dit moment is er nog geen code geschreven. De wiskundige basisprincipes zijn uitgewerkt en we zijn bezig met de publicatie ervan. We zijn developers aan het recruteren en development zal binnenkort starten.
+
 A: No code has been written yet. A bunch of mathematical primitives have been worked out and are working their way towards publication. I'm hiring programmers right now and coding will begin soon.
 
 
 
-+ <b>Q: When can I farm Chia?</b>
++ <b>Q: Wanneer kan ik Chia farmen?</b>
+
+A: In het 2e kwartaal van 2018 zal er een publieke verkoop plaatsvinden, je zal kunnen farmen van zodra het netwerk gelanceerd wordt.
 
 A: There will be a public sale in Q2 of 2018, and you'll be able to farm once the network launches.
 
 
 
-+ <b>Q: What does proof of time mean?</b>
++ <b>Q: Wat betekent proof of time?</b>
 
 A: Technically proofs of time are also part of the farming, but those tend to be done by a few actors who don't get anything out of it directly.
 
 
 
-+ <b>Q: Why the name Chia?</b>
++ <b>Q: Waarom de naam Chia?</b>
+
+A: "Chia" is een soort zaad. Het past dus binnen ons "farming" concept.
 
 A: "Chia" is the name of a grain. It goes with the "farming" theme.
 
 
 
-+ <b>Q: Does more hard disk space mean more Chia?</b>
++ <b>Q: Betekent meer schijfruimte meer Chia?</b>
+
+A: De kans op het farmen van de volgende blok zijn direct proportioneel met het aantal vrije schrijfruimte van jouw harddisk.  
 
 A: Your chances of farming the next block are directly proportional to your amount of disk space.
 
@@ -79,6 +90,8 @@ A: The likely outcome is that it rapidly becomes unprofitable to buy hard drives
 
 
 + <b>Q: How is Chia any different from other storage coins such as Burst?</b>
+
+A: Because burstcoin doesn't have the proof of time component, there are some attacks that make it unsuitable as a mining algorithm.
 
 A: Because burstcoin doesn't have the proof of time component, there are some attacks that make it unsuitable as a mining algorithm.
 
@@ -153,4 +166,3 @@ A: Instead of just one whitepaper, we're going to have academic papers in journa
 + <b>Q: Where can I find out more?</b>
 
 A: You can sign up for the announcements list to get info as it comes out. Also we're available to discuss announcements on Keybase. Check out our homepage for links.
-
